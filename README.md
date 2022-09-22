@@ -7,9 +7,11 @@ Paypal Checkout Integration
 2. Go to __Developer Dashboard__. Select __My Apps & Credentials__ from sidebar. Create an __app__ (Sandbox for testing, Live for live). You'll get __CLIENT ID__ and __SECRET__ from the __app__ you created.
 
 3. Now go to your laravel project, open __.env__ file and add these.
+```
 PAYPAL_ENV=testing
 PAYPAL_CLIENT_ID=(your paypal CLIENT ID)
 PAYPAL_SECRET=(your paypal SECRET)
+```
 
 ## Client-side Integration
 
